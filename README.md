@@ -7,65 +7,65 @@ This is the actionable checklist to review a WordPress theme on [WordPress.org](
 - [ ] [Request a Theme](https://make.wordpress.org/themes/) to review
 
 ## Internal Setup
-- [ ] [Install a WordPress site for testing](https://make.wordpress.org/meta/handbook/about/get-involved/setting-up-your-machine)
-- [ ] Import the [theme unit test data](https://wpcom-themes.svn.automattic.com/demo/theme-unit-test-data.xml) into your installation
-- [ ] Set WP_DEBUG to `true` in wp-config
-- [ ] Install the following Plugins: [Theme Check](https://wordpress.org/extend/plugins/theme-check/), [Debug Bar](https://wordpress.org/extend/plugins/debug-bar/), [Log Deprecated Notices](https://wordpress.org/extend/plugins/log-deprecated-notices/), [Monster Widget](https://wordpress.org/extend/plugins/monster-widget/), [WordPress Beta Tester](https://wordpress.org/extend/plugins/wordpress-beta-tester/), [Theme Mentor](https://wordpress.org/plugins/theme-mentor/) _(Note: all those plugins can be installed via the [Developer](https://wordpress.org/extend/plugins/developer/) plugin)_
+- [x] [Install a WordPress site for testing](https://make.wordpress.org/meta/handbook/about/get-involved/setting-up-your-machine)
+- [x] Import the [theme unit test data](https://wpcom-themes.svn.automattic.com/demo/theme-unit-test-data.xml) into your installation
+- [x] Set WP_DEBUG to `true` in wp-config
+- [x] Install the following Plugins: [Theme Check](https://wordpress.org/extend/plugins/theme-check/), [Debug Bar](https://wordpress.org/extend/plugins/debug-bar/), [Log Deprecated Notices](https://wordpress.org/extend/plugins/log-deprecated-notices/), [Monster Widget](https://wordpress.org/extend/plugins/monster-widget/), [WordPress Beta Tester](https://wordpress.org/extend/plugins/wordpress-beta-tester/), [Theme Mentor](https://wordpress.org/plugins/theme-mentor/) _(Note: all those plugins can be installed via the [Developer](https://wordpress.org/extend/plugins/developer/) plugin)_
 
 ## Run Test Tools
-- [ ] Run Theme Check then see the results
-- [ ] Run Theme Mentor then see the results
-- [ ] Drag Monster Widget to the Sidebar then see how it looks
+- [x] Run Theme Check then see the results
+- [x] Run Theme Mentor then see the results
+- [x] Drag Monster Widget to the Sidebar then see how it looks
 
 ## Accessibility
 
-- [ ] If the theme has the tag `accessibility-ready` then it needs to meet [these requirements](https://make.wordpress.org/themes/handbook/review/accessibility/).
+- [x] If the theme has the tag `accessibility-ready` then it needs to meet [these requirements](https://make.wordpress.org/themes/handbook/review/accessibility/).
 
 ## Code
 
-- [ ] Check PHP and JS errors.
-- [ ] Include at least index.php and style.css.
-- [ ] Have a valid DOCTYPE declaration and include language_attributes.
+- [x] Check PHP and JS errors.
+- [x] Include at least index.php and style.css.
+- [x] Have a valid DOCTYPE declaration and include language_attributes.
 - [ ] Sanitize everything.
 - [ ] No removing or modifying non-presentational hooks.
-- [ ] No shortcodes are allowed.
-- [ ] Support the following WordPress-generated CSS classes: `.alignleft, .alignright, .wp-caption, .wp-caption-text, .gallery-caption, .sticky, .bypostauthor`
+- [x] No shortcodes are allowed.
+- [x] Support the following WordPress-generated CSS classes: `.alignleft, .alignright, .wp-caption, .wp-caption-text, .gallery-caption, .sticky, .bypostauthor`
 
 ## Core Functionality and Features
 
-- [ ] Use [WordPress functionality and features first, if available](https://make.wordpress.org/themes/handbook/review/wordpress-functionality-and-features/).
-- [ ] Don’t include admin/feature pointers.
-- [ ] No custom post types and no custom taxonomies.
-- [ ] No pay wall restricting any WordPress feature.
-- [ ] No disabling of the admin tool bar.
-- [ ] Use [get_template_directory()](https://developer.wordpress.org/reference/functions/get_template_directory/) rather than `TEMPLATEPATH` to return the template path.
-- [ ] Use [get_stylesheet_directory()](https://developer.wordpress.org/reference/functions/get_stylesheet_directory/) rather than `STYLESHEETPATH` to return the stylesheet path.
-- [ ] Avoid hard coding to modify content. Instead, use function parameters, filters and action hooks where appropriate. For  example wp_title should be modified using a filter.
-- [ ] Able to have child themes made from them.
-- [ ] Include comments_template().
+- [x] Use [WordPress functionality and features first, if available](https://make.wordpress.org/themes/handbook/review/wordpress-functionality-and-features/).
+- [x] Don’t include admin/feature pointers.
+- [x] No custom post types and no custom taxonomies.
+- [x] No pay wall restricting any WordPress feature.
+- [x] No disabling of the admin tool bar.
+- [x] Use [get_template_directory()](https://developer.wordpress.org/reference/functions/get_template_directory/) rather than `TEMPLATEPATH` to return the template path.
+- [x] Use [get_stylesheet_directory()](https://developer.wordpress.org/reference/functions/get_stylesheet_directory/) rather than `STYLESHEETPATH` to return the stylesheet path.
+- [x] Avoid hard coding to modify content. Instead, use function parameters, filters and action hooks where appropriate. For  example wp_title should be modified using a filter.
+- [x] Able to have child themes made from them.
+- [x] Include comments_template().
 
 ## Favicons
 
-- [ ] If implemented, disable favicons by default and have the ability for users to override.
+- [x] If implemented, disable favicons by default and have the ability for users to override.
 
 ## Language
 
-- [ ] All theme text strings are to be translatable.
-- [ ] Include a text domain in style.css
-- [ ] Use a single unique theme slug – as the theme slug appears in style.css. If it uses a framework then no more than 2 unique slugs.
-- [ ] Can use any language for text, but only use the same one for all text.
+- [x] All theme text strings are to be translatable.
+- [x] Include a text domain in style.css
+- [x] Use a single unique theme slug – as the theme slug appears in style.css. If it uses a framework then no more than 2 unique slugs.
+- [x] Can use any language for text, but only use the same one for all text.
 
 ## Licensing
 
-- [ ] Be 100% GPL and/or 100% GPL-compatible licensed.
-- [ ] Declare copyright and license explicitly. Use the license and license uri header slugs to style.css.
-- [ ] Declare licenses of any resources included such as fonts or images.
-- [ ] All code and design should be your own or legally yours. Cloning of designs is not acceptable.
+- [x] Be 100% GPL and/or 100% GPL-compatible licensed.
+- [x] Declare copyright and license explicitly. Use the license and license uri header slugs to style.css.
+- [x] Declare licenses of any resources included such as fonts or images.
+- [x] All code and design should be your own or legally yours. Cloning of designs is not acceptable.
 
 ## Naming
 
-- [ ] Theme names must not use: WordPress, Theme.
-- [ ] Spell “WordPress” correctly in all public facing text: all one word, with both an uppercase W and P.
+- [x] Theme names must not use: WordPress, Theme.
+- [x] Spell “WordPress” correctly in all public facing text: all one word, with both an uppercase W and P.
 
 ## Options and Settings
 
@@ -78,20 +78,20 @@ This is the actionable checklist to review a WordPress theme on [WordPress.org](
 
 ## Plugins
 
-- [ ] Don’t include any plugins. A theme can recommend plugins but not include those plugins in the theme code.
-- [ ] Don’t do things in a theme considered plugin territory.
+- [x] Don’t include any plugins. A theme can recommend plugins but not include those plugins in the theme code.
+- [x] Don’t do things in a theme considered plugin territory.
 
 ## Screenshot
 
 - [ ] Screenshot.png should be of the actual theme as it appears with default options, not a logo or mockup.
-- [ ] The screenshot.png should be no bigger than 880 x 660px.
+- [x] The screenshot.png should be no bigger than 880 x 660px.
 
 ## Security and Privacy
 
 - [ ] Don’t phone home without informed user consent. Find out more about [security](https://make.wordpress.org/themes/handbook/review/recommended/security-and-privacy/) here.
 - [ ] Make any collection of user data ‘opt-in’ only and have a theme option that is set to disabled by default.Validate and sanitze untrusted data before entering into the database. All untrusted data should be escaped before output. (see: [Data Validation](https://codex.wordpress.org/Data_Validation))
-- [ ] No url shorteners used in the theme.
-- [ ] Use `esc_attr()` for text inputs and `esc_textarea()` for textareas.
+- [x] No url shorteners used in the theme.
+- [x] Use `esc_attr()` for text inputs and `esc_textarea()` for textareas.
 
 ## Selling, credits and links
 
@@ -100,7 +100,7 @@ This is the actionable checklist to review a WordPress theme on [WordPress.org](
 
 ## Stylesheets and Scripts
 
-- [ ] No hard coding of scripts, styles and Favicons unless a browser workaround script. Everything should be enqueued.
+- [x] No hard coding of scripts, styles and Favicons unless a browser workaround script. Everything should be enqueued.
 - [ ] No analytics or tracking.
 - [ ] No minification of scripts or files unless provide original files.
 - [ ] Required to use core-bundled scripts rather than including their own version of that script. For example jQuery.
