@@ -1,21 +1,4 @@
-# WordPress Themes Review Checklist
-This is the actionable checklist to review a WordPress theme on [WordPress.org](https://wordpress.org/)
-
-## Getting Started
-- [ ] Join [WordPress Slack](http://chat.wordpress.org/), then join the theme review team in #themereview
-- [ ] Subscribe to [Theme Review Team Updates](https://make.wordpress.org/themes)
-- [ ] [Request a Theme](https://make.wordpress.org/themes/) to review
-
-## Internal Setup
-- [x] [Install a WordPress site for testing](https://make.wordpress.org/meta/handbook/about/get-involved/setting-up-your-machine)
-- [x] Import the [theme unit test data](https://wpcom-themes.svn.automattic.com/demo/theme-unit-test-data.xml) into your installation
-- [x] Set WP_DEBUG to `true` in wp-config
-- [x] Install the following Plugins: [Theme Check](https://wordpress.org/extend/plugins/theme-check/), [Debug Bar](https://wordpress.org/extend/plugins/debug-bar/), [Log Deprecated Notices](https://wordpress.org/extend/plugins/log-deprecated-notices/), [Monster Widget](https://wordpress.org/extend/plugins/monster-widget/), [WordPress Beta Tester](https://wordpress.org/extend/plugins/wordpress-beta-tester/), [Theme Mentor](https://wordpress.org/plugins/theme-mentor/) _(Note: all those plugins can be installed via the [Developer](https://wordpress.org/extend/plugins/developer/) plugin)_
-
-## Run Test Tools
-- [x] Run Theme Check then see the results
-- [x] Run Theme Mentor then see the results
-- [x] Drag Monster Widget to the Sidebar then see how it looks
+# Modality WordPress Theme Review
 
 ## Accessibility
 

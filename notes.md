@@ -1,6 +1,7 @@
 ## Notes
-HTMLShiv script enqueued in header.php
+
 Monster widget - looks great!
+Theme Test Data - initial exploration, looks great!
 
 ## Code
 - JS console.log / output : `error:needs arguments` stickUp.js:39
