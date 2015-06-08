@@ -9,8 +9,8 @@
 - [x] Check PHP and JS errors.
 - [x] Include at least index.php and style.css.
 - [x] Have a valid DOCTYPE declaration and include language_attributes.
-- [ ] Sanitize everything.
-- [ ] No removing or modifying non-presentational hooks.
+- [x] Sanitize everything.
+- [x] No removing or modifying non-presentational hooks.
 - [x] No shortcodes are allowed.
 - [x] Support the following WordPress-generated CSS classes: `.alignleft, .alignright, .wp-caption, .wp-caption-text, .gallery-caption, .sticky, .bypostauthor`
 
@@ -52,12 +52,12 @@
 
 ## Options and Settings
 
-- [ ] Save options in a single array.
-- [ ] Use [sane defaults](https://make.wordpress.org/themes/2014/07/09/using-sane-defaults-in-themes/) and don’t write default setting values to the database.
-- [ ] Use edit_theme_options capability for add_theme_page(), rather than rely on a role (e.g. “administrator”), or a different capability (e.g. “edit_themes”, “manage_options”) for the capability to add the settings page.
-- [ ] If using a theme options page, add it to the ‘Appearance’ menu.
-- [ ] Use either the Settings API or the Customizer for implementing theme options.
-- [ ] Prefix all options, custom functions, custom [global variables](http://php.net/manual/en/language.variables.scope.php) and custom constants with the theme-slug.
+- [x] Save options in a single array.
+- [x] Use [sane defaults](https://make.wordpress.org/themes/2014/07/09/using-sane-defaults-in-themes/) and don’t write default setting values to the database.
+- [x] Use edit_theme_options capability for add_theme_page(), rather than rely on a role (e.g. “administrator”), or a different capability (e.g. “edit_themes”, “manage_options”) for the capability to add the settings page.
+- [x] If using a theme options page, add it to the ‘Appearance’ menu.
+- [x] Use either the Settings API or the Customizer for implementing theme options.
+- [x] Prefix all options, custom functions, custom [global variables](http://php.net/manual/en/language.variables.scope.php) and custom constants with the theme-slug.
 
 ## Plugins
 
@@ -66,29 +66,29 @@
 
 ## Screenshot
 
-- [ ] Screenshot.png should be of the actual theme as it appears with default options, not a logo or mockup.
+- [x] Screenshot.png should be of the actual theme as it appears with default options, not a logo or mockup.
 - [x] The screenshot.png should be no bigger than 880 x 660px.
 
 ## Security and Privacy
 
-- [ ] Don’t phone home without informed user consent. Find out more about [security](https://make.wordpress.org/themes/handbook/review/recommended/security-and-privacy/) here.
-- [ ] Make any collection of user data ‘opt-in’ only and have a theme option that is set to disabled by default.Validate and sanitze untrusted data before entering into the database. All untrusted data should be escaped before output. (see: [Data Validation](https://codex.wordpress.org/Data_Validation))
+- [x] Don’t phone home without informed user consent. Find out more about [security](https://make.wordpress.org/themes/handbook/review/recommended/security-and-privacy/) here.
+- [x] Make any collection of user data ‘opt-in’ only and have a theme option that is set to disabled by default.Validate and sanitze untrusted data before entering into the database. All untrusted data should be escaped before output. (see: [Data Validation](https://codex.wordpress.org/Data_Validation))
 - [x] No url shorteners used in the theme.
 - [x] Use `esc_attr()` for text inputs and `esc_textarea()` for textareas.
 
 ## Selling, credits and links
 
-- [ ] If you are a themeshop you should be selling under GPL to be in the WordPress.org repo.
-- [ ] If the theme adds a footer credit link, there should only be one (link to WordPress does not count)
+- [x] If you are a themeshop you should be selling under GPL to be in the WordPress.org repo.
+- [x] If the theme adds a footer credit link, there should only be one (link to WordPress does not count)
 
 ## Stylesheets and Scripts
 
 - [x] No hard coding of scripts, styles and Favicons unless a browser workaround script. Everything should be enqueued.
-- [ ] No analytics or tracking.
-- [ ] No minification of scripts or files unless provide original files.
-- [ ] Required to use core-bundled scripts rather than including their own version of that script. For example jQuery.
-- [ ] Include all scripts and resources it uses rather than hot-linking. The exception to this is Google libraries.
-- [ ] If a tag is used in style.css the theme should support that feature or adhere to what that tag stands for. For example custom background or header.
+- [x] No analytics or tracking.
+- [x] No minification of scripts or files unless provide original files.
+- [x] Required to use core-bundled scripts rather than including their own version of that script. For example jQuery.
+- [x] Include all scripts and resources it uses rather than hot-linking. The exception to this is Google libraries.
+- [x] If a tag is used in style.css the theme should support that feature or adhere to what that tag stands for. For example custom background or header.
 
 ## Templates
 
